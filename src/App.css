@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.todo-heading{
+  text-align: center;
+font-size: 40px;
+padding: 2vh 0;
+padding-top: 40px;
+}
+
+.todos-list{
+  height: 100vh;
+  width:100%;
+  border-radius: 15px;
+  background: rgb(218, 215, 215);
+}
+.todo-input input{
+  height: 8vh;
+  width: 38vw;
+  margin-left: 400px;
+  margin-top: 50px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+}
+.todo-input button{
+  height:8vh ;
+  width:8vw;
+  background-color: #3e9bca;
+  margin-left: -100px;
+  border-radius: 20px;
+  border: 1px solid #3b70da;
+}
+
+.todo-input button:hover{
+  background-color: rgb(48, 70, 235);
+}
+
+.todo{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 2vh;
+  font-size: 16px;
+    /* Ensures width adjusts to content */
+ 
+  border-bottom: 2px solid #000; /* Line below the text */
+  padding: 5px; /* Optional padding around the text */
+  font-size: 16px; /* Font size for text */
+  margin: 10px;
+  width: 30vw;
+  margin-left: 450px;
+
+}
+
+.todo-title{
+  font-size: 20px;
+  font-weight: 20px;
+  text-align: center;
+}
+
+.todo button {
+ 
+   
+    background-color: red;
+    height: 17px;
+    width: 16px;
+    border: 1px solid red;
+    color: white;
+   
+}
+.todo-heading img{
+  height: 40px;
+  width: 40px;
+}

@@ -37,7 +37,7 @@ function App() {
 return(
   <>
     <div className='todos-list'> 
-  <h1 className='todo-heading'> My To-Do Application <img src="public/svg/list.png"  alt="" /></h1>
+  <h1 className='todo-heading'> My To-Do Application <img src="svg/list.png"  alt="" /></h1>
  
   
   <div className='todo-input'>
